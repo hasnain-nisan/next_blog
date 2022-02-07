@@ -1,8 +1,11 @@
+import MeetupDetails from '../../components/MeetupDetails'
 
-const MeetupDetails = () => {
-  return <div>
-      meetup details
-  </div>;
+const MeetupPage = () => {
+  return (
+    <div>
+      <MeetupDetails/>
+    </div>
+  )
 };
 
-export default MeetupDetails;
+export default MeetupPage;

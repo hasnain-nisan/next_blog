@@ -46,7 +46,7 @@ const Navbar = () => {
           </ul>
         </div>
         {showSidebar && (
-            <div className="md:hidden justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
+            <div className="md:hidden justify-between items-center w-full md:w-auto md:order-1 transition-all duration-200 ease-in-out" id="mobile-menu-3">
               <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                 <li className="flex items-center justify-center">
                     <Link
